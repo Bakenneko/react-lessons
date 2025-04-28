@@ -1,13 +1,16 @@
 import './App.css';
-import MyComponent from "./components/MyComponent.tsx";
 
 function App() {
 
   return (
     <>
-      <MyComponent text={'hello 1'}/>
-      <MyComponent text={'hello 2'}/>
-      <MyComponent text={'hello Andrew'}/>
+      <ul>
+          <li>Hello</li>
+          <li>Hi</li>
+          <li>Good</li>
+          <li>Day</li>
+          <li>Nice</li>
+      </ul>
     </>
   );
 }
