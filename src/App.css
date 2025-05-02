@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+.container {
+    @apply flex justify-center mt-10;
+}
+
+.course-list {
+    @apply bg-white shadow-md rounded-xl p-4 w-80;
+}
+
+.course-item {
+    @apply text-base text-gray-800 py-2 border-b last:border-b-0
+    hover:text-blue-600 transition-colors cursor-pointer;
+}
