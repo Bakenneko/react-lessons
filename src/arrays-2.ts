@@ -5,26 +5,38 @@
 // Стилізація довільна, але обов’язково підключена й мінімально зроблена (хоча б один стиль, який працює).
 
 
+// arrays-2.ts
 
-import {CourseModel} from "./models/CourseModel.ts";
+import { BookModel } from "./models/training/BookModel.ts";
 
-export const coursesTitleArray: string[] = [
-    'JavaScript Complex',
-    'Java Complex',
-    'Python Complex',
-    'QA Complex',
-    'Fullstack',
-    'Frontend'
+export const booksArray: BookModel[] = [
+    { title: 'Moby Dick', author: 'Herman Melville', year: 1851 },
+    { title: 'War and Peace', author: 'Leo Tolstoy', year: 1869 },
+    { title: 'Pride and Prejudice', author: 'Jane Austen', year: 1813 }
 ];
 
-export const coursesAndDurationArray: CourseModel[] = [
-    {title: 'JavaScript Complex', monthDuration: 5},
-    {title: 'Java Complex', monthDuration: 6},
-    {title: 'Python Complex', monthDuration: 6},
-    {title: 'QA Complex', monthDuration: 4},
-    {title: 'FullStack', monthDuration: 7},
-    {title: 'Frontend', monthDuration: 4}
-];
+
+
+
+// import {CourseModel} from "./models/CourseModel.ts";
+//
+// export const coursesTitleArray: string[] = [
+//     'JavaScript Complex',
+//     'Java Complex',
+//     'Python Complex',
+//     'QA Complex',
+//     'Fullstack',
+//     'Frontend'
+// ];
+
+// export const coursesAndDurationArray: CourseModel[] = [
+//     {title: 'JavaScript Complex', monthDuration: 5},
+//     {title: 'Java Complex', monthDuration: 6},
+//     {title: 'Python Complex', monthDuration: 6},
+//     {title: 'QA Complex', monthDuration: 4},
+//     {title: 'FullStack', monthDuration: 7},
+//     {title: 'Frontend', monthDuration: 4}
+// ];
 
 // let coursesArray = [
 //     {

@@ -1,23 +1,26 @@
 import './App.css';
+import {BooksTypes} from "./components/task3/BooksTypes.tsx";
 
-import { coursesTitleArray } from './arrays-2';
 
 const App = () => {
-
-  return (
-    <div className="container">
-        <ul className="course-list">
-
-            {coursesTitleArray.map((value:string, index:number) => (
-                <li key={index} className="course-item">
-                    {value}</li>
-            ))}
-        </ul>
-    </div>
-  );
-}
+    return (
+        <>
+            <BooksTypes/>
+        </>
+    );
+};
 
 export default App;
+
+// const App = () => {
+//     return (
+//         <>
+//             <CoursesComponent/>
+//         </>
+//     );
+// };
+//
+// export default App;
 
 
 

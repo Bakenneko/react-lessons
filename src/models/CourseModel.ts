@@ -1,5 +1,5 @@
-export interface CourseModel {
-    title: string;
-    monthDuration: number;
-}
-
+// export interface CourseModel {
+//     title: string;
+//     monthDuration: number;
+// }
+//
