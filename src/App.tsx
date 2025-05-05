@@ -1,16 +1,28 @@
 import './App.css';
-import {BooksTypes} from "./components/task3/BooksTypes.tsx";
+import {FamilyComponent} from "./components/task4/FamilyComponent.tsx";
 
 
 const App = () => {
     return (
         <>
-            <BooksTypes/>
+            <FamilyComponent/>
         </>
     );
 };
 
 export default App;
+
+
+
+// const App = () => {
+//     return (
+//         <>
+//             <BooksTypes/>
+//         </>
+//     );
+// };
+//
+// export default App;
 
 // const App = () => {
 //     return (
