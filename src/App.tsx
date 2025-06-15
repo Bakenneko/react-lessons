@@ -1,11 +1,9 @@
 import './App.css';
-import {FamilyComponent} from "./components/task4/FamilyComponent.tsx";
 
 
 const App = () => {
     return (
         <>
-            <FamilyComponent/>
         </>
     );
 };

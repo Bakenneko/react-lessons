@@ -1,7 +1,7 @@
-export interface ICharacter {
-    name: string
-    surname: string
-    age: number,
-    info: string,
-    photo: string
-}
+// export interface ICharacter {
+//     name: string
+//     surname: string
+//     age: number,
+//     info: string,
+//     photo: string
+// }

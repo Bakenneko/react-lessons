@@ -1,13 +1,13 @@
-@import "tailwindcss";
+/*@import "tailwindcss";*/
 
-img {
-    @apply w-auto h-auto;
-}
-div {
-    @apply bg-white shadow-md rounded-xl p-4;
-    @apply my-10 border-b-2 border-gray-400 pb-2;
-}
+/*img {*/
+/*    @apply w-auto h-auto;*/
+/*}*/
+/*div {*/
+/*    @apply bg-white shadow-md rounded-xl p-4;*/
+/*    @apply my-10 border-b-2 border-gray-400 pb-2;*/
+/*}*/
 
-h3 {
-    @apply text-2xl font-bold mb-2;
-}
+/*h3 {*/
+/*    @apply text-2xl font-bold mb-2;*/
+/*}*/
